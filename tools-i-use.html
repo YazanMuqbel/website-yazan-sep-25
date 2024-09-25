@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yazan Muqbel</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .new-label {
+            background-color: red;
+            color: white;
+            padding: 2px 5px;
+            font-size: 12px;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .content-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content-links div {
+            margin-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            font-size: 24px;
+            color: #666;
+        }
+
+        .social-links a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Section 1: Header with Image -->
+        <section>
+            <h1>Yazan Muqbel</h1>
+            <img src="https://ucarecdn.com/901be5e0-5de3-41a7-b39b-baa51bd5409d/"
+                alt="Circular profile image of Yazan Muqbel">
+            <p>Building my CV on the Internet through writing about my thoughts, findings and things I build. Placing small bets towards the good life...</p>
+            <p>
+                I write on
+                <a href="https://substack.com/@yazanmuqbel/p-134636433">Substack</a> and
+                <a href="https://substack.com/@yazanmuqbel/p-134636433">Medium</a>
+            </p>
+        </section>
+
+        <!-- Section 2: Article Links -->
+        <section class="content-links">
+            <div>
+                <a href="https://substack.com/@yazanmuqbel/p-134636433">The Abundance of Choice, and How it’s
+                    Contributing to Your Unhappiness.</a>
+                <span class="new-label">NEW</span>
+            </div>
+
+            <div>
+                <a href="https://yazanmuqbel.gumroad.com/l/xidpk?_gl=1*1uar40u*_ga*NTA0ODEyNjEyLjE3MjMxOTMxMzQ.*_ga_6LJN6D94N6*MTcyNTA0NTQ4My44LjEuMTcyNTA0NTY1NC4wLjAuMA..">How I Made my First $1 Online (and How You Can Do it too)</a>
+            </div>
+
+            <div>
+                <a href="#">No Meetings, No Deadlines, No Full-Time Employees</a>
+                <span>2021</span>
+            </div>
+
+            <div>
+                <a href="#">Reflecting on My Failure to Build a Billion-Dollar Company</a>
+                <span>2019</span>
+            </div>
+
+            <div>
+                <a href="#">Across the Border</a>
+                <span>2018</span>
+            </div>
+        </section>
+
+        <!-- Section 3: Paintings -->
+        <section>
+            <h2>Painter</h2>
+            <div class="grid">
+                <a href="https://www.instagram.com/p/Ciw7ayJghRA/">
+                    <img src="https://ucarecdn.com/59d7dd35-2151-4e22-9352-dd44d6925a0f/" alt="Painting of electronic devices in a dimly lit room">
+                </a>
+                <a href="https://ucarecdn.com/901be5e0-5de3-41a7-b39b-baa51bd5409d/">
+                    <img src="https://ucarecdn.com/901be5e0-5de3-41a7-b39b-baa51bd5409d/" alt="Landscape painting with rocky terrain and vibrant vegetation">
+                </a>
+                <a href="https://ucarecdn.com/901be5e0-5de3-41a7-b39b-baa51bd5409d/">
+                    <img src="https://ucarecdn.com/901be5e0-5de3-41a7-b39b-baa51bd5409d/" alt="Portrait painting of a person with long dark hair">
+                </a>
+            </div>
+        </section>
+
+        <!-- Section 4: Social Media Links -->
+        <section>
+            <h2>Connect with me</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/yazanmuqbel/" target="_blank">LinkedIn</a>
+                <a href="https://x.com/muqbel_yazan" target="_blank">X (Twitter)</a>
+                <a href="#" target="_blank">RSS</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
